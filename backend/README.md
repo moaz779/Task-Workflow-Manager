@@ -1,4 +1,4 @@
-// README.md - project skeleton file
+
 # Task & Workflow Manager
 
 ## Overview
