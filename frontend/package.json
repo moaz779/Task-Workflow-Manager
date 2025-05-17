@@ -1,0 +1,40 @@
+{
+  "name": "task-workflow-manager-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.17.1",
+    "axios": "^1.9.0",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.js",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

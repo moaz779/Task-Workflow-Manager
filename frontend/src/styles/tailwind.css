@@ -1,0 +1,11 @@
+/* tailwind.css - basic reset; replace with your Tailwind build if available */
+body { margin: 0; font-family: sans-serif; }
+a { color: #1976d2; text-decoration: none; }
+button { cursor: pointer; }
+.container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; background: #1976d2; color: white; }
+.nav a { margin-left: 1rem; color: white; }
+.form-group { margin-bottom: 1rem; }
+input, select, textarea { width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+.error { color: red; margin-top: 0.25rem; }
+.task-item { border: 1px solid #ddd; padding: 1rem; margin-bottom: 0.5rem; border-radius: 4px; display: flex; justify-content: space-between; align-items: center; }
